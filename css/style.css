@@ -262,7 +262,7 @@ a:focus {
 	margin:0 auto;
 	background-position:center center !important;
 	transform:translateY(-50%);
-    background: url('../images/preloader.GIF') no-repeat;   
+    background: url('../images/preloader.gif') no-repeat;   
 }
 
 /*
