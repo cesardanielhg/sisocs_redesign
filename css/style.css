@@ -342,7 +342,7 @@ a:focus {
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    min-height: 360px /*720px*/;
+    min-height: 400px /*720px*/;
 	background-attachment:fixed;
 	/* (img-height / img-width * container-width) */
                 /* (853 / 1280 * 100) */
