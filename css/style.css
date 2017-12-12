@@ -1443,7 +1443,7 @@ a:focus {
     cursor: pointer;
 	display:inline-block;
 	}
-.owl-controls {position:absolute;left:0;right:0;bottom:0;}
+.owl-controls {position:relative;left:0;right:0;bottom:0;}
 .owl-controls .owl-dots{text-align:center;}
 .owl-controls .owl-dots .owl-dot{
 	width:30px;
