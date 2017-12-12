@@ -615,3 +615,17 @@ body{background:#f7fbfc;}
 .feature-field{background:#f7fbfc;border:1px solid #deeef2;}
 .feature-field i{}
 .feature-field p{}
+
+
+ .owl-prev, .owl-next{
+	background-color: #ffcb06;
+	color: white;
+	left: 5px;
+    padding: 6px 30px;
+    position: relative;
+    float: left;
+    font-size: 17px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
