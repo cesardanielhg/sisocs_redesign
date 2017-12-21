@@ -118,17 +118,17 @@
 			$busqueda = trim($_POST['palabras']);
 			$entidad0 = trim($_POST['entidad']);
 			if (empty($busqueda)){
-				$busqueda ="Ingrese texto a buscar...";
+				$busqueda ="";
 			}
-			if (empty($entidad)){
-				$entidad ="Todas las Entidades";
+			if (empty($entidad0)){
+				$entidad0 ="Todas las Entidades";
 			}
 			?>		
 			<div class="container ">
 				<div class="search-form-wrap">
 					<form class="clearfix" action="resultados.php" method="POST">
 						<div class="input-field-wrap pull-left">
-							<input class="search-form-input" name="palabras" placeholder="<?php echo $busqueda; ?>" type="text"/>
+							<input class="search-form-input" name="palabras" placeholder="Ingrese texto a buscar..."  value="<?php echo $busqueda; ?>" type="text"/>
 						</div>
 						<div class="select-field-wrap pull-left">
 							<select class="search-form-select" name="municipio" >
