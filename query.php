@@ -74,7 +74,8 @@ if($_POST){
 			 }
 	  
 	  }else{
-		   $texto = "NO HAY RESULTADOS EN LA BBDD";	
+  			$registros = "<h4 class='white'>No Se Encontraron Resultados de Busqueda</h4>";
+		   $texto = "No Hay resultados en la Base de Datos con los parámetros de búsqueda proporcionados.";	
 	  }
 	  // Cerramos la conexión (por seguridad, no dejar conexiones abiertas)
 	  mysqli_close($conexion);
