@@ -55,8 +55,11 @@ if($_POST){
 							<div class='entry-wrap shadow-1'>								
 
 								<div class='entry-content'>
+									<div class='entry-disc'>
+										<p>Resultado No. ".(string)$c."</p>
+									</div>
 									<div class='entry-title'>
-										<h4>No.".(string)$c." - ".$fila['codigo']."</h4>
+										<h4>".$fila['codigo']."</h4>
 									</div>
 									
 									<div class='entry-disc'>
