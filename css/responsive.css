@@ -286,7 +286,8 @@
 	.footer-copyright p {text-align: center;}
 }
 @media only screen and (min-width: 768px) and (max-width: 980px){
-	.static-section {min-height: 600px;}
+	.static-section {min-height: 600px; margin-top: 50px;}
+	.static-header-text {margin-top: 28px;}
 	.static-header-content {padding:30px;}
 	
 	.search-form-wrap {padding: 30px 20px;top:0;}

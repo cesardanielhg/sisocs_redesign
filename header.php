@@ -112,8 +112,10 @@
 
 			<?php 
 			ini_set('display_errors', true);
-			$busqueda = trim($_POST['palabras']);
-			$entidad0 = trim($_POST['entidad']);
+			if($_POST){
+				$busqueda = trim($_POST['palabras']);
+				$entidad0 = trim($_POST['entidad']);
+			}
 			if (empty($busqueda)){
 				$busqueda ="";
 			}
