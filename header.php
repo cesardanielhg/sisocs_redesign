@@ -68,7 +68,7 @@
 				<div class="container ">
 					<!--Main Menu HTML Code-->
 					<nav class="wsmenu slideLeft clearfix ">
-						<div class="logo pull-left"><a href="#" title="Responsive Slide Menus"><img src="images/logo.png" alt="" /></a></div>
+						<div class="logo pull-left"><a href="/" title="Responsive Slide Menus"><img src="images/logo.png" alt="" /></a></div>
 						<ul class="mobile-sub wsmenu-list pull-right">
 							<li><a href="/" class="">Inicio</a>
 							</li>
@@ -112,16 +112,19 @@
 			<?php 
 			ini_set('display_errors', true);
 			
-			if($_POST){
+			if($_POST['palabras']){
 				$busqueda = trim($_POST['palabras']);
-				$entidad0 = trim($_POST['entidad']);
-			}
-			if (empty($busqueda)){
+			}else{
 				$busqueda ="";
 			}
-			if (empty($entidad0)){
+
+
+			if($_POST['entidad']){
+				$entidad0 = trim($_POST['entidad']);
+			}else{
 				$entidad0 ="Todas las Entidades";
 			}
+
 			?>		
 			<div class="container ">
 				<div class="search-form-wrap">
