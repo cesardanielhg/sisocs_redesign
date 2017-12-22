@@ -4,9 +4,9 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<meta name="viewport" content="user-scalable = yes" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Listing - Classified Listing HTML Template">
-	<meta name="keywords" content="Listing,HTML,CSS,Classified,blog,business,corporate,clean,responsive">
-	<meta name="author" content="Muqadass Aleem, Muammad Asif">
+    <meta name="description" content="Información y Seguimiento de Obras y contratos en Honduras">
+	<meta name="keywords" content="contratos, gobierno honduras, supervisión, gobierto abierto, datos abiertos">
+	<meta name="author" content="SISOCS">
 	
 	<title>SISOCS - SISTEMA DE INFORMACIÓN Y SEGUIMIENTO DE OBRAS Y CONTRATOS DE SUPERVISIÓN</title>
 	
@@ -56,7 +56,7 @@
 		<div class="wsmenucontent overlapblackbg"></div>
 		<div class="wsmenuexpandermain slideRight">
 			<a id="navToggle" class="animated-arrow slideLeft"><span></span></a>
-			<a href="#" class="smallogo"><img src="images/logo.png" width="120" alt="" /></a>
+			<a href="/" class="smallogo"><img src="images/logo.png" width="120" alt="" /></a>
 		</div>
 		<!--================================HEADER==========================================-->
 		<div class="header">
@@ -70,22 +70,21 @@
 					<nav class="wsmenu slideLeft clearfix ">
 						<div class="logo pull-left"><a href="#" title="Responsive Slide Menus"><img src="images/logo.png" alt="" /></a></div>
 						<ul class="mobile-sub wsmenu-list pull-right">
-							<li><a href="index.html" class="">Inicio</a>
+							<li><a href="/" class="">Inicio</a>
 							</li>
 							<li><a href="#" class="">Entidades</a>
 								<ul class="wsmenu-submenu">
-									<li><a href="#">Hondutal</a></li>
-									<li><a href="#" class="">Fondo Vial</a></li>
-									<li><a href="#" class="">Coalianza</a></li>
-									<li><a href="#" class="">INSEP</a></li>
-									<li><a href="#" class="">ENP</a></li>
+									<li><a href="https://fondovial.sisocs.org/index.php?r=Ciudadano/index" target="blank">Fondo Vial</a></li>
+									<li><a href="https://invest.sisocs.org/index.php?r=Ciudadano/index" target="blank">InvestH</a></li>
+									<li><a href="https://insep.sisocs.org/index.php?r=Ciudadano/index" target="blank">INSEP</a></li>
+									<li><a href="https://enp.sisocs.org/index.php?r=Ciudadano/index" target="blank">ENP</a></li>
 								</ul>
 							</li>
 
 							<li><a href="#" class="">Documentos</a>
 								<ul class="wsmenu-submenu">
-									<li><a href="#">Manual de Usuario</a></li>
-									<li><a href="#" class="">Decreto Ejecutivo SISOCS</a></li>
+									<li><a href="/docs/manual_sisocs.pdf" target="blank">Manual de Usuario</a></li>
+									<li><a href="/docs/decreto_sisocs.pdf" target="blank">Decreto Ejecutivo SISOCS</a></li>
 									
 								</ul>
 							</li>
@@ -112,6 +111,7 @@
 
 			<?php 
 			ini_set('display_errors', true);
+			
 			if($_POST){
 				$busqueda = trim($_POST['palabras']);
 				$entidad0 = trim($_POST['entidad']);
