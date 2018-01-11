@@ -68,7 +68,7 @@
 				<div class="container ">
 					<!--Main Menu HTML Code-->
 					<nav class="wsmenu slideLeft clearfix ">
-						<div class="logo pull-left"><a href="#" title="Responsive Slide Menus"><img src="images/logo.png" alt="" /></a></div>
+						<div class="logo pull-left"><a href="/" title="Responsive Slide Menus"><img src="images/logo.png" alt="" /></a></div>
 						<ul class="mobile-sub wsmenu-list pull-right">
 							<li><a href="/" class="">Inicio</a>
 							</li>
