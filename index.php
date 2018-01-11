@@ -1,4 +1,4 @@
-<?php include 'header.php'; ?>
+<?php $buscador=1; include 'header.php'; ?>
 
 		
 		<!--================================SERVICES SECTION==========================================-->
