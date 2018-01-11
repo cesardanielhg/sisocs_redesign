@@ -175,7 +175,7 @@
 					</div><!-- partner end -->
 					<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 margin-bottom-30"><!-- .partner -->
 						<div class="partner shadow-1 clearfix">
-							<a href="#"><img src="images/Entidad-hondutel.jpg" alt="partner"/></a>
+							<a href="#"><img src="images/Entidad-insep.jpg" alt="partner"/></a>
 						</div>
 					</div><!-- partner end -->
 					<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 margin-bottom-30"><!-- .partner -->
