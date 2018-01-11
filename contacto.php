@@ -3,8 +3,8 @@
 
 
 		<!--================================PAGE TITLE==========================================-->
-		<div class="page-title-wrap bgorange-1 padding-top-30 padding-bottom-30"><!-- section title -->
-			<h4 class="white">health & fitness</h4>
+		<div class="page-title-wrap bgamarillo padding-top-150 padding-bottom-30"><!-- section title -->
+			<h4 class="white">Contáctenos</h4>
 		</div><!-- section title end -->
 		
 		<!--================================listing SECTION==========================================-->
@@ -15,9 +15,7 @@
 					<div class="col-md-9 col-sm-8 col-xs-12 main-wrap"><!-- content area column -->
 						<div class="blog-section padding-bottom-40">
 							<div class="entry-wrap shadow-1"><!-- blog entry -->
-								<div class="entry-figure">
-									<img src="images/news/blog/01.jpg" alt="blog entry">
-								</div>
+								
 								<div class="entry-content">
 									<div class="entry-title">
 										<h4>Take me out of country</h4>
@@ -39,55 +37,7 @@
 								</div>
 							</div><!-- blog entry end -->
 							<div class="comments-wrap margin-top-20">
-								<div class="comments-main-title">
-									<h5 class="tx-left">2 comments</h5>
-								</div>
-								<div class="comments">
-									<ul>
-										<li>
-											<div class="comment-box shadow-1">
-												<div class="row clearfix">
-													<div class="col-md-2 col-sm-3 col-xs-12 comment-figure">
-														<img src="images/news/author/01.jpg" alt="author thumbnail">
-													</div>
-													<div class="col-md-10 col-sm-9 col-xs-12 comment-content tx-left">
-														<div class="comment-content">
-															<div class="comment-author-name">
-																<h5 class="tx-left">John Doe</h5>
-																<a class="reply tx-right" href="#">Reply</a>
-																<p class="tx-left">May 19th, 2015</p>
-															</div>
-															<div class=" comment-disc">
-																<p class="tx-left">Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-										</li>
-										<li>
-											<div class="comment-box shadow-1">
-												<div class="row clearfix">
-													<div class="col-md-2 col-sm-3 col-xs-12 comment-figure">
-														<img src="images/news/author/02.jpg" alt="author thumbnail">
-													</div>
-													<div class="col-md-10 col-sm-9 col-xs-12 comment-content tx-left">
-														<div class="comment-content">
-															<div class="comment-author-name">
-																<h5 class="tx-left">John Doe</h5>
-																<a class="reply tx-right" href="#">Reply</a>
-																<p class="tx-left">May 19th, 2015</p>
-															</div>
-															<div class=" comment-disc">
-																<p class="tx-left">Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-										</li>
-									</ul>
-								</div>
+								
 								<div class="comments-main-title padding-top-30">
 									<h5 class="tx-left">Leave a comment</h5>
 								</div>

@@ -408,7 +408,7 @@ a:focus {
 	line-height:56px;
 	font-size:14px;
 	font-family:'Montserrat';
-	text-transform:capitalize;
+	text-transform:none;
 	padding:0 0 0 20px;
 	-webkit-appearance: none;
     -moz-appearance: none;
