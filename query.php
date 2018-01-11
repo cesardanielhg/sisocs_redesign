@@ -1,8 +1,28 @@
 <?php
 ini_set('display_errors', true);
+
+//global $tabla;
+if($current_entidad == "FondoVial") {
+	$tabla= "sisocs_fondovial";
+	$dominio= "fondovial";
+} elseif ($current_entidad == "InvestH") {
+	$tabla= "sisocs_invest";
+	$dominio= "invest";
+} elseif ($current_entidad == "INSEP") {
+	$tabla= "sisocs_insep";
+	$dominio= "insep";
+} elseif ($current_entidad == "ENP") {
+	$tabla= "sisocs_enp";
+	$dominio= "enp";
+}else{
+	$tabla= "sisocs_fondovial";
+	$dominio= "fondovial";
+}
+
+
 // Definimos la conexión
 function conectar(){
-	$tabla= "sisocs_fondovial";
+	global $tabla;
 	global $conexion;  //Definición global para poder utilizar en todo el contexto
 	//$conexion = mysqli_connect("localhost", "costdev", "c98td3v", $tabla)
 	$conexion = mysqli_connect("localhost", "root", "root", $tabla)
@@ -67,7 +87,7 @@ if($_POST){
 										<p>".$fila['nombre_proyecto']."</p>
 									</div>
 									<div class='entry-readmore'>
-										<a class='white bgblue-1' href='https://fondovial.sisocs.org/index.php?r=ciudadano/PreFichaTecnica&id=".(string)$fila['idProyecto']."'>
+										<a class='white bgblue-1' href='https://".$dominio.".sisocs.org/index.php?r=ciudadano/PreFichaTecnica&id=".(string)$fila['idProyecto']."'>
 											Ver detalles..
 										</a>
 									</div>
@@ -78,7 +98,8 @@ if($_POST){
 			 }
 	  
 	  }else{
-  			$registros = "<h4 class='white'>No Se Encontraron Resultados de Busqueda</h4>";
+  			$registros = //" <span>>>Texto:". $busqueda. " / Municipio;".$."</span></br>"
+  			"<h4 class='white'>No Se Encontraron Resultados de Busqueda</h4>";
 		   $texto = "No Hay resultados en la Base de Datos con los parámetros de búsqueda proporcionados.";	
 	  }
 	  // Cerramos la conexión (por seguridad, no dejar conexiones abiertas)
