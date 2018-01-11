@@ -149,8 +149,10 @@
 
 
 
-		<!--================================ PARTNER SECTION ==========================================-->
 		
+
+
+
 		<section class="partner-section padding-top-40 padding-bottom-20">
 			<div class="container"><!-- section container -->
 				<div class="section-title-wrap margin-bottom-20"><!-- section title -->
@@ -161,31 +163,64 @@
 						<div class="line"></div>
 					</div>
 				</div><!-- section title end -->
-				
-				<div class="row partner-wrap style-1 clearfix">
-					<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 margin-bottom-30"><!-- .partner -->
-						<div class="partner shadow-1 clearfix">
-							<a href="#"><img src="images/Entidad-fondo.jpg" alt="partner"/></a>
-						</div>
-					</div><!-- partner end -->
-					<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 margin-bottom-30"><!-- .partner -->
-						<div class="partner shadow-1 clearfix">
-							<a href="#"><img src="images/Entidad-invest.jpg" alt="partner"/></a>
-						</div>
-					</div><!-- partner end -->
-					<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 margin-bottom-30"><!-- .partner -->
-						<div class="partner shadow-1 clearfix">
-							<a href="#"><img src="images/Entidad-insep.jpg" alt="partner"/></a>
-						</div>
-					</div><!-- partner end -->
-					<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 margin-bottom-30"><!-- .partner -->
-						<div class="partner shadow-1 clearfix">
-							<a href="#"><img src="images/Entidad-enp.jpg" alt="partner"/></a>
-						</div>
-					</div><!-- partner end -->
-				</div><!-- .row partner end -->
+
+
 			</div><!-- container end -->
 		</section>
+
+				
+		<!--================================SOCIAL CAROUSEL SECTION==========================================-->
+		
+		<section class="social-section padding-bottom-20">
+			<div class="container-fluid"><!-- section container -->
+				<div class="social-wrap style-1">
+					
+					<ul class="social-slider clearfix">
+						
+						<li class="item">
+							<a href="https://enp.sisocs.org/" target="blank">
+								<img src="images/Entidad-enp.jpg" alt="partner"/>
+							</a>
+						</li><!-- .ITEM -->
+
+						<li class="item">
+							<a href="https://insep.sisocs.org/" target="blank">
+								<img src="images/Entidad-insep.jpg" alt="partner"/>
+							</a>
+						</li><!-- .ITEM -->
+
+						<li class="item">
+							<a href="https://fondovial.sisocs.org/" target="blank">
+								<img src="images/Entidad-fondo.jpg" alt="partner"/>
+							</a>
+						</li><!-- .ITEM -->
+
+						<li class="item">
+							<a href="https://invest.sisocs.org/" target="blank">
+								<img src="images/Entidad-invest.jpg" alt="partner"/>
+							</a>
+						</li><!-- .ITEM -->
+
+
+						<li class="item">
+							<a href="#"><img src="images/Entidad-enp.jpg" alt="partner"/></a>
+						</li><!-- .ITEM -->
+
+						<li class="item">
+							<a href="#"><img src="images/Entidad-insep.jpg" alt="partner"/></a>
+						</li><!-- .ITEM -->
+
+						
+						
+						<div data-background-icon='&#xf086;'></div>
+
+
+
+					</ul>
+				</div>
+			</div><!-- container end -->
+		</section>
+
 		
 		
 <?php include 'footer.php'; ?>
