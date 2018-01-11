@@ -130,7 +130,7 @@
 						</div>
 						<div class="select-field-wrap pull-left">
 							<select class="search-form-select" name="municipio" >
-								<option class="options" value="1">Todos Los Municipios</option>
+								<option class="options" value="1">Todos los municipios</option>
 								<option class="options" value="2">Cortés</option>
 								<option class="options" value="3">Francisco Morazán</option>
 								<option class="options" value="4">Comayagua</option>
@@ -144,7 +144,7 @@
 
 							<select class="search-form-select" name="entidad">
 							<?php
-							$entidades = array('Todas las Entidades', 'ENP', 'INSEP','HONDUTEL');
+							$entidades = array('Todas las entidades', 'FondoVial', 'InvestH','INSEP','ENP');
 							$current_entidad = $entidad0;
 
 							foreach($entidades as $entidad) {
