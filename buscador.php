@@ -43,14 +43,15 @@
 
 							<select class="search-form-select" name="entidad">
 							<?php
-							$entidades = array('Todas las entidades', 'FondoVial', 'InvestH','INSEP','ENP');
+							include 'array_instituciones.php'; 
+							//$entidades = array('Todas las entidades', 'FondoVial', 'InvestH','INSEP','ENP');
 							$current_entidad = $entidad0;
-
-							foreach($entidades as $entidad) {
+							foreach($instituciones as $x => $entidad) { 
+							//foreach($entidades as $entidad) {
 							    if($entidad == $current_entidad) {
-							        echo '<option selected="selected">'.$entidad.'</option>';
+							        echo '<option selected="selected">'. strtoupper($entidad).'</option>';
 							    } else {
-							        echo '<option>'.$entidad.'</option>';
+							        echo '<option>'. strtoupper($entidad).'</option>';
 							    }
 							}
 							?>
