@@ -33,6 +33,8 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/menu.css">
 	<link rel="stylesheet" type="text/css" href="css/color/color.css">
+	<link rel="stylesheet" type="text/css" href="assets/testimonial/css/style.css" />
+	<link rel="stylesheet" type="text/css" href="assets/testimonial/css/elastislide.css" />
 	<link rel="stylesheet" type="text/css" href="css/responsive.css">
 
 	<!--================================FONTAWESOME==========================================-->
