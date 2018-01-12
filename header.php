@@ -74,10 +74,16 @@
 							</li>
 							<li><a href="#" class="">Entidades</a>
 								<ul class="wsmenu-submenu">
-									<li><a href="https://fondovial.sisocs.org/index.php?r=Ciudadano/index" target="blank">Fondo Vial</a></li>
-									<li><a href="https://invest.sisocs.org/index.php?r=Ciudadano/index" target="blank">InvestH</a></li>
-									<li><a href="https://insep.sisocs.org/index.php?r=Ciudadano/index" target="blank">INSEP</a></li>
-									<li><a href="https://enp.sisocs.org/index.php?r=Ciudadano/index" target="blank">ENP</a></li>
+									<?php 
+									include 'array_instituciones.php'; 
+									foreach($instituciones as $x => $x_value) { 
+									?>
+										<li>
+											<a href="https://<?php echo $x_value; ?>.sisocs.org/" target="blank">
+												<?php echo $x; ?>
+											</a>
+										</li>
+									<?php } ?>
 								</ul>
 							</li>
 
