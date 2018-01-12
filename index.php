@@ -96,9 +96,6 @@
 
 
 
-
-
-
 					</ul>
 				</div>
 			</div><!-- container end -->
@@ -171,57 +168,28 @@
 				
 		<!--================================SOCIAL CAROUSEL SECTION==========================================-->
 		
+		<?php include 'array_instituciones.php'; ?>
 		<section class="social-section padding-bottom-20">
 			<div class="container-fluid"><!-- section container -->
 				<div class="social-wrap style-1">
 					
 					<ul class="social-slider clearfix">
 						
+						<?php foreach($instituciones as $x => $x_value) { ?>
 						<li class="item">
-							<a href="https://enp.sisocs.org/" target="blank">
-								<img src="images/Entidad-enp.jpg" alt="partner"/>
+							<a href="https://<?php echo $x_value; ?>.sisocs.org/" target="blank">
+								<img src="images/Entidad-<?php echo $x_value; ?>.jpg" alt="partner"/>
 							</a>
 						</li><!-- .ITEM -->
-
-						<li class="item">
-							<a href="https://insep.sisocs.org/" target="blank">
-								<img src="images/Entidad-insep.jpg" alt="partner"/>
-							</a>
-						</li><!-- .ITEM -->
-
-						<li class="item">
-							<a href="https://fondovial.sisocs.org/" target="blank">
-								<img src="images/Entidad-fondo.jpg" alt="partner"/>
-							</a>
-						</li><!-- .ITEM -->
-
-						<li class="item">
-							<a href="https://invest.sisocs.org/" target="blank">
-								<img src="images/Entidad-invest.jpg" alt="partner"/>
-							</a>
-						</li><!-- .ITEM -->
-
-
-						<li class="item">
-							<a href="#"><img src="images/Entidad-enp.jpg" alt="partner"/></a>
-						</li><!-- .ITEM -->
-
-						<li class="item">
-							<a href="#"><img src="images/Entidad-insep.jpg" alt="partner"/></a>
-						</li><!-- .ITEM -->
-
-						
+						<?php } ?>
 						
 						<div data-background-icon='&#xf086;'></div>
-
-
 
 					</ul>
 				</div>
 			</div><!-- container end -->
 		</section>
-
-		
+	
 		
 <?php include 'footer.php'; ?>
 		
