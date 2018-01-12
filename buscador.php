@@ -45,10 +45,10 @@
 							<?php
 							include 'array_instituciones.php'; 
 							//$entidades = array('Todas las entidades', 'FondoVial', 'InvestH','INSEP','ENP');
-							$current_entidad = $entidad0;
+							$current_entidad = strtoupper($entidad0);
 							foreach($instituciones as $x => $entidad) { 
 							//foreach($entidades as $entidad) {
-							    if($entidad == $current_entidad) {
+							    if(strtoupper($entidad) == $current_entidad) {
 							        echo '<option selected="selected">'. strtoupper($entidad).'</option>';
 							    } else {
 							        echo '<option>'. strtoupper($entidad).'</option>';

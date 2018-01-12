@@ -2,6 +2,11 @@
 ini_set('display_errors', true);
 
 //global $tabla;
+
+$tabla= "sisocs_".$current_entidad;
+$dominio= $current_entidad;
+
+/*
 if($current_entidad == "FondoVial") {
 	$tabla= "sisocs_fondovial";
 	$dominio= "fondovial";
@@ -18,6 +23,7 @@ if($current_entidad == "FondoVial") {
 	$tabla= "sisocs_fondovial";
 	$dominio= "fondovial";
 }
+*/
 
 
 // Definimos la conexión
