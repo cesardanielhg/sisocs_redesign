@@ -426,7 +426,7 @@
 	.blog-entry .entry-content .entry-metas a.permalink {right: 5px;top:5px;}
 	
 	.static-section { min-height: 500px;}
-	.static-header-content {padding: 0 15px;top: 65%; }
+	.static-header-content {padding: 0 15px; }
 	.static-section h4, .static-section h2 {letter-spacing: 0;}
 	
 	.top-toolbar .top-contact-info ul li.toolbar-contact {display: block;margin-bottom: 5px;padding-right: 0;}
@@ -500,7 +500,7 @@
 	.comment-content .reply {top: 20px;}
 	.comment-figure img { width: 100%;}
 	
-	.static-section { min-height: 500px; margin-top: 53px;}
+	.static-section { min-height: 656px; margin-top: 53px;}
 	.static-header-content {padding: 0 15px;}
 	.static-section h4, .static-section h2 {letter-spacing: 0;}
 	
