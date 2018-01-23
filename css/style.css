@@ -1708,3 +1708,5 @@ label.checkbox-lable{position:relative;top:-8px;color:#999;}
 
 .static-header-text h4 {font-size: 22px !important;}
 
+.entry-disc p a {display: inline; text-decoration: underline; color: #ffcb06}
+

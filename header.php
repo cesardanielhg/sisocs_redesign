@@ -98,7 +98,7 @@
 							</li>
 
 
-							<li><a href="#">Preguntas Frecuentes <span class="arrow"></span></a></li>
+							<li><a href="preguntas-frecuentes.php">Preguntas Frecuentes <span class="arrow"></span></a></li>
 							
 						  	<li><a href="contacto.php">Contáctenos <span class="arrow"></span></a></li>
 						</ul>
