@@ -125,7 +125,9 @@ Algunos de estos datos son: nombre de las empresas participantes en la licitaci√
 									<div class="entry-disc">
 										<p>
 											Env√≠ala a nuestro <a href="contacto.php" target="blank">formulario de contacto</a>.
-										</p>
+										</p> 
+
+
 									</div>
 								</div>
 							</div><!-- blog entry end -->

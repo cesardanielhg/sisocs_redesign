@@ -32,8 +32,8 @@ if($current_entidad == "FondoVial") {
 function conectar(){
 	global $tabla;
 	global $conexion;  //Definición global para poder utilizar en todo el contexto
-	$conexion = mysqli_connect("localhost", "costdev", "c98td3v", $tabla)
-	//$conexion = mysqli_connect("localhost", "root", "root", $tabla)
+	//$conexion = mysqli_connect("localhost", "costdev", "c98td3v", $tabla)
+	$conexion = mysqli_connect("localhost", "root", "root", $tabla)
 	or die ('NO SE HA PODIDO CONECTAR AL MOTOR DE LA BASE DE DATOS');	
 }
 
