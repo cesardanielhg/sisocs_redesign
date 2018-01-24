@@ -106,13 +106,14 @@
 
 		<!--================================FUNFACTS COUNTER SECTION==========================================-->
 		
+		<?php include 'totales_query.php'; ?>
 		<section id="funfact" class=" padding-top-50 padding-bottom-30" >
 			<div class="container">
 				<div class="row padding-bottom-20" id="funfact-1">
 					<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 margin-bottom-30 text-center clearfix">
 						<div class="funfact-1 color-1  clearfix">
 							<div class="fun-wrap">
-								<div class="count2">791</div>
+								<div class="count2"><?php echo $tot1; ?></div>
 								<div class="funfact-divider"></div>
 								<div class="funfact"><p> Proyectos Publicados</p></div>
 							</div>
@@ -132,7 +133,7 @@
 					<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 margin-bottom-30 text-center clearfix">
 						<div class="funfact-1 color-1  clearfix">
 							<div class="fun-wrap">
-								<div class="count2"> L 44,989,000</div>
+								<div class="count2"> L <?php echo round($tot2/1000000); ?></div>
 								<div class="funfact-divider"></div>
 								<div class="funfact"><p> Total de Inversión</p></div>
 							</div>
