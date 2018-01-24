@@ -81,6 +81,18 @@ if($_POST){
               $c = $c + 1;
               $texto .= 
               			"
+              			 <tr>
+					      <td data-label='No.'>".(string)$c."</td>
+					      <td data-label='Código Proyecto'>".$fila['codigo']."</td>
+					      <td data-label='Descripción'>".$fila['nombre_proyecto']."</td>
+					      <td data-label='Entidad'>".$dominio."</td>
+					    </tr>
+					    ";
+
+					    /*	
+					    "
+
+
 							<div class='entry-wrap shadow-1'>								
 
 								<div class='entry-content'>
@@ -102,6 +114,7 @@ if($_POST){
 								</div>
 
 							</div>";
+							*/
 
 			 }
 	  

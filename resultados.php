@@ -10,6 +10,8 @@ table {
   padding: 0;
   width: 100%;
   table-layout: fixed;
+  /*text-transform: lowercase !important;*/
+  font-size: 13px !important;
 }
 table caption {
   font-size: 1.5em;
@@ -95,17 +97,40 @@ table th {
 				<div class="row"><!-- row -->
 					
 
-					<div class="col-md-9 col-sm-8 col-xs-12 main-wrap"><!-- content area column -->
+					<div class="col-md-12 col-sm-12 col-xs-12 main-wrap"><!-- content area column -->
 						<div class="listing-single padding-bottom-40">
 
 
 							
-							<!--
+							
 							
 							<div class="entry-wrap shadow-1">
 								
 
 								<div class="entry-content">
+
+
+									<table>
+									  <!--<caption>Resultados de Búsqueda</caption>-->
+									  <thead>
+									    <tr>
+									      <th scope="col">No.</th>
+									      <th scope="col">Código Proyecto</th>
+									      <th scope="col">Descripción</th>
+									      <th scope="col">Entidad</th>
+									    </tr>
+									  </thead>
+									  <tbody>
+									   
+
+									    <?php echo $texto; ?>
+									   
+									   
+									  </tbody>
+									</table>
+									
+
+									<!--
 									<div class="entry-title">
 										<h4>Take me out of country</h4>
 									</div>
@@ -118,61 +143,23 @@ table th {
 									<div class="entry-readmore">
 										<a class="white bgblue-1" href="single.html">Read More</a>
 									</div>
+									-->
+
+
 								</div>
 
 							</div>
 
-							 -->
+							
 
-							 <?php echo $texto; ?>
-
-
-
-
-							<table>
-							  <caption>Resultados de Búsqueda</caption>
-							  <thead>
-							    <tr>
-							      <th scope="col">Número Resultado</th>
-							      <th scope="col">Nombre Documento</th>
-							      <th scope="col">Descripción</th>
-							      <th scope="col">Entidad</th>
-							    </tr>
-							  </thead>
-							  <tbody>
-							    <tr>
-							      <td data-label="Número Resultado">Visa - 3412</td>
-							      <td data-label="Nombre Documento">04/01/2016</td>
-							      <td data-label="Descripción">$1,190</td>
-							      <td data-label="Entidad">03/01/2016 - 03/31/2016</td>
-							    </tr>
-
-							     <tr>
-							      <td data-label="Número Resultado">Visa - 3412</td>
-							      <td data-label="Nombre Documento">04/01/2016</td>
-							      <td data-label="Descripción">$1,190</td>
-							      <td data-label="Entidad">03/01/2016 - 03/31/2016</td>
-							    </tr>
-
-							     <tr>
-							      <td data-label="Número Resultado">Visa - 3412</td>
-							      <td data-label="Nombre Documento">04/01/2016</td>
-							      <td data-label="Descripción">$1,190</td>
-							      <td data-label="Entidad">03/01/2016 - 03/31/2016</td>
-							    </tr>
-							   
-							   
-							  </tbody>
-							</table>
-
-
+							
 
 
 						</div>
 					</div><!-- content area end -->
 					
 
-					<?php include 'sidebar.php'; ?>
+					<?php //include 'sidebar.php'; ?>
 
 
 				</div>
