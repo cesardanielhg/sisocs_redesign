@@ -135,7 +135,7 @@
 							<div class="fun-wrap">
 								<div class="count2"> L <?php echo round($tot2/1000000); ?></div>
 								<div class="funfact-divider"></div>
-								<div class="funfact"><p> Total de Inversión</p></div>
+								<div class="funfact"><p> Millones Totales de Inversión</p></div>
 							</div>
 						</div>
 					</div><!-- /.col-md-3 col -->

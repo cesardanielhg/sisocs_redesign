@@ -79,10 +79,12 @@
 
          
          
-         $tot1 = $insep1_ind + $fondo1_ind + $invest1_ind + $enp1_ind + $coalianza1_ind + $enee1_ind + $sapp1_ind + $hondutel1_ind + $idecoas1_ind;
-         $tot2 = $insep2_ind + $fondo2_ind + $invest2_ind + $enp2_ind + $coalianza2_ind + $enee2_ind + $sapp2_ind + $hondutel2_ind + $idecoas2_ind;
+         $tot1 = $insep1_ind + $fondo1_ind + $invest1_ind + $enp1_ind;
+         $tot2 = $insep2_ind + $fondo2_ind + $invest2_ind + $enp2_ind;
+         /*
          $tot3 = $insep3_ind + $fondo3_ind + $invest3_ind + $enp3_ind + $coalianza3_ind + $enee3_ind + $sapp3_ind + $hondutel3_ind + $idecoas3_ind;
          $tot4 = $insep4_ind + $fondo4_ind + $invest4_ind + $enp4_ind + $coalianza4_ind + $enee4_ind + $sapp4_ind + $hondutel4_ind + $idecoas4_ind;
+         */
 
 
 ?>
