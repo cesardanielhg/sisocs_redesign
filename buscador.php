@@ -29,13 +29,25 @@
 						</div>
 						<div class="select-field-wrap pull-left">
 							<select class="search-form-select" name="municipio" >
-								<option class="options" value="1">Todos los municipios</option>
-								<option class="options" value="2">Cortés</option>
-								<option class="options" value="3">Francisco Morazán</option>
+								<option class="options" value="1">Todos los departamentos</option>
+								<option class="options" value="2">Atlántida</option>
+								<option class="options" value="3">Colón</option>
 								<option class="options" value="4">Comayagua</option>
-								<option class="options" value="5">Choluteca</option>
-								<option class="options" value="6">Copán</option>
-								<option class="options" value="7">Santa Bárbara</option>
+								<option class="options" value="5">Copán</option>
+								<option class="options" value="6">Cortés</option>
+								<option class="options" value="7">Choluteca</option>
+								<option class="options" value="8">El Paraíso</option>					
+								<option class="options" value="9">Francisco Morazán</option>
+								<option class="options" value="10">Gracias a Dios</option>
+								<option class="options" value="11">Intibucá</option>
+								<option class="options" value="12">Islas de la Bahía</option>
+								<option class="options" value="13">La Paz</option>
+								<option class="options" value="14">Lempira</option>
+								<option class="options" value="15">Ocotepeque</option>
+								<option class="options" value="16">Olancho</option>
+								<option class="options" value="17">Santa Bárbara</option>
+								<option class="options" value="18">Valle</option>
+								<option class="options" value="19">Yoro</option>			
 							</select>
 						</div>
 						<div class="select-field-wrap pull-left">
