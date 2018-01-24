@@ -78,6 +78,7 @@ table th {
  tbody tr:nth-child(odd) {
   background: lightgray;
 }
+.entry-wrap .entry-content .entry-readmore {margin-top: 0px !important}
 </style>
 <?php $buscador=1; include 'header.php';  ?>
 
@@ -118,6 +119,7 @@ table th {
 									      <th scope="col">Código Proyecto</th>
 									      <th scope="col">Descripción</th>
 									      <th scope="col">Entidad</th>
+									      <th scope="col">Enlace</th>
 									    </tr>
 									  </thead>
 									  <tbody>

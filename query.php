@@ -86,6 +86,13 @@ if($_POST){
 					      <td data-label='Código Proyecto'>".$fila['codigo']."</td>
 					      <td data-label='Descripción'>".$fila['nombre_proyecto']."</td>
 					      <td data-label='Entidad'>".$dominio."</td>
+					      <td data-label='Enlace'>
+								<div class='entry-readmore'>
+									<a class='white bgblue-1' href='https://".$dominio.".sisocs.org/index.php?r=ciudadano/PreFichaTecnica&id=".(string)$fila['idProyecto']."'>
+										Ver detalles..
+									</a>
+								</div>
+					      </td>
 					    </tr>
 					    ";
 
