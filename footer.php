@@ -11,6 +11,13 @@
 						<div class="col-md-12 col-sm-12 col-xs-12 pull-right margin-bottom-20">
 							<nav class="footer-menu wsmenu clearfix">
 								<ul class="wsmenu-list pull-right">
+									<li><a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">
+										<img src="images/cc_icon.png" alt="">
+									</a></li>
+									<li><a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">
+										<img src="images/attribution_icon.png" alt="">
+									</a></li>
+
 								  <li><a href="#" class="">Inicio</a></li>
 								  <li><a href="#">Entidades <span class="arrow"></span></a></li>
 								  <li><a href="#">Decreto Ejecutivo SISOCS<span class="arrow"></span></a></li>
