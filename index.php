@@ -79,7 +79,7 @@
 
 						<li class="item">
 							<a class="bggray black shadow-1 padding-bottom-10" href="#"><i class="fa fa-puzzle-piece fa-2"></i>
-								<h6>Centros Recreativas</h6>
+								<h6>Centros Recreativos</h6>
 							</a>
 						</li><!-- .ITEM -->
 
