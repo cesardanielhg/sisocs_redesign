@@ -32,13 +32,13 @@
 						
 						<li class="item">
 							<a class="bggray black shadow-1 padding-bottom-10" href="#"><i class="fa fa-road fa-2"></i>
-								<h6>Red Víal</h6>
+								<h6>Red Vial</h6>
 							</a>
 						</li><!-- .ITEM -->
 
 						<li class="item">
 							<a class="bggray black shadow-1 padding-bottom-10" href="#"><i class="fa fa-building-o fa-2"></i>
-								<h6>Edificios Gubernamentales</h6>
+								<h6>Edificios</h6>
 							</a>
 						</li><!-- .ITEM -->
 
@@ -55,17 +55,8 @@
 							</a>
 						</li><!-- .ITEM -->
 
-						<li class="item">
-							<a class="bggray black shadow-1 padding-bottom-10" href="#"><i class="fa fa-book fa-2"></i>
-								<h6>Escuelas</h6>
-							</a>
-						</li><!-- .ITEM -->
-
-						<li class="item">
-							<a class="bggray black shadow-1 padding-bottom-10" href="#"><i class="fa fa-medkit fa-2"></i>
-								<h6>Centros de Salud</h6>
-							</a>
-						</li><!-- .ITEM -->
+						
+						
 
 						<li class="item">
 							<a class="bggray black shadow-1 padding-bottom-10" href="#"><i class="fa fa-lightbulb-o fa-2"></i>
@@ -82,13 +73,13 @@
 
 						<li class="item">
 							<a class="bggray black shadow-1 padding-bottom-10" href="#"><i class="fa fa-signal fa-2"></i>
-								<h6>Comunicaciones</h6>
+								<h6>Telecomunicaciones</h6>
 							</a>
 						</li><!-- .ITEM -->
 
 						<li class="item">
 							<a class="bggray black shadow-1 padding-bottom-10" href="#"><i class="fa fa-puzzle-piece fa-2"></i>
-								<h6>Areas Recreativas</h6>
+								<h6>Centros Recreativas</h6>
 							</a>
 						</li><!-- .ITEM -->
 
@@ -106,7 +97,7 @@
 
 		<!--================================FUNFACTS COUNTER SECTION==========================================-->
 		
-		<?php include 'totales_query.php'; ?>
+		<?php //include 'totales_query.php'; ?>
 		<section id="funfact" class=" padding-top-50 padding-bottom-30" >
 			<div class="container">
 				<div class="row padding-bottom-20" id="funfact-1">
