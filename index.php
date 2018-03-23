@@ -97,7 +97,7 @@
 
 		<!--================================FUNFACTS COUNTER SECTION==========================================-->
 		
-		<?php //include 'totales_query.php'; ?>
+		<?php include 'totales_query.php'; ?>
 		<section id="funfact" class=" padding-top-50 padding-bottom-30" >
 			<div class="container">
 				<div class="row padding-bottom-20" id="funfact-1">
