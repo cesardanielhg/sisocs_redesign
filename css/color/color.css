@@ -397,7 +397,7 @@ body{background:#f7fbfc;}
 /*.callout-section{background:url(../../images/callout-bg.jpg)no-repeat;}*/
 .callout-section{background: black}
 .callout-wrapper{}
-.callout-1{border:3px dashed #fecc17;}
+.callout-1{border:1px dashed #fecc17;}
 .callout-section a:hover{color:#fff;}
 
 /*
@@ -637,5 +637,11 @@ body{background:#f7fbfc;}
     font-size: 17px;
     font-weight: bold;
     margin-right: 5px;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 

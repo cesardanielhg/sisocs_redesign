@@ -107,8 +107,11 @@
 							<h4 class="white">INGRESE<span class="yallow-1">a nuestra nueva y moderna</span>App</h4>
 						</div><!--blog entry column end-->
 						<div class="callout-btns"><!--blog entry column-->
+							<img class="center" src="/images/sisocs-blanco.png" alt="">
+							<!--
 							<a class="bgblue-1 white" href="#">Read More</a>
 							<a class="bggreen-1 white" href="#">Purchase</a>
+							-->
 						</div><!--blog entry column end-->
 					</div>
 				</div>
