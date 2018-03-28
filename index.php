@@ -97,7 +97,7 @@
 
 		<!--================================FUNFACTS COUNTER SECTION==========================================-->
 		
-		<?php include 'totales_query.php'; ?>
+		<?php //include 'totales_query.php'; ?>
 		<section id="funfact" class=" padding-top-50 padding-bottom-30" >
 			<div class="container">
 				<div class="row padding-bottom-20" id="funfact-1">
@@ -166,11 +166,7 @@
 				<div class="social-wrap style-1">
 					
 					<ul class="social-slider clearfix">
-						<li class="item">
-							<a href="#">
-								<img src="images/Entidad-sisocsapp.jpg" alt="">
-							</a>
-						</li>
+						
 						<?php foreach($instituciones as $x => $x_value) { ?>
 						<li class="item">
 							<a href="https://<?php echo $x_value; ?>.sisocs.org/" target="blank">

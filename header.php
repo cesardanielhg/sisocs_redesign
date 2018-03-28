@@ -58,7 +58,8 @@
 		<div class="wsmenucontent overlapblackbg"></div>
 		<div class="wsmenuexpandermain slideRight">
 			<a id="navToggle" class="animated-arrow slideLeft"><span></span></a>
-			<a href="/" class="smallogo"><img src="images/logo.png" width="120" alt="" /></a>
+			<a href="/" class="smallogo"><img src="images/logo.png" width="120" alt="" /></a>				
+
 		</div>
 		<!--================================HEADER==========================================-->
 		<div class="header">
@@ -70,7 +71,13 @@
 				<div class="container ">
 					<!--Main Menu HTML Code-->
 					<nav class="wsmenu slideLeft clearfix ">
-						<div class="logo pull-left"><a href="/" title="Responsive Slide Menus"><img src="images/logo.png" alt="" /></a></div>
+						<div class="logo pull-left"><a href="/" title="Responsive Slide Menus"><img src="images/logo.png" alt="" /></a>
+
+							<a href="#">
+								<img src="images/Entidad-sisocsapp.jpg" width="100" alt="">
+							</a>
+		
+						</div>
 						<ul class="mobile-sub wsmenu-list pull-right">
 							<li><a href="/" class="">Inicio</a>
 							</li>
@@ -100,13 +107,20 @@
 
 							<li><a href="preguntas-frecuentes.php">Preguntas Frecuentes <span class="arrow"></span></a></li>
 							
+							<!--
 						  	<li><a href="contacto.php">Contáctenos <span class="arrow"></span></a></li>
+						  	-->
+
+
+						  	
 						</ul>
+
 					</nav>
 				</div>
 			</div><!--main navigation end-->
 		</div><!-- header end -->
-		
+
+				
 
 		<?php 
 		if (isset($buscador)) {
