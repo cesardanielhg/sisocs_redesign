@@ -92,7 +92,35 @@
 			</div><!-- container end -->
 		</section>
 
+
+
+
+
+		<!--================================CALLOUT SECTION==========================================-->
 		
+		<section class="callout-section padding-top-70 padding-bottom-70 bgwhite">
+			<div class="container"><!-- section container -->
+				<div class="callout-wrapper">
+					<div class="callout-1">
+						<div class="callout-message"><!--blog entry column-->
+							<h2 class="white">SISOCS<span class="blue-1">APP</span></h2>
+							<h4 class="white">INGRESE<span class="yallow-1">a nuestra nueva y moderna</span>App</h4>
+						</div><!--blog entry column end-->
+						<div class="callout-btns"><!--blog entry column-->
+							<a class="bgblue-1 white" href="#">Read More</a>
+							<a class="bggreen-1 white" href="#">Purchase</a>
+						</div><!--blog entry column end-->
+					</div>
+				</div>
+			</div><!-- section container end -->
+		</section>
+
+		
+
+
+
+
+
 				
 
 		<!--================================FUNFACTS COUNTER SECTION==========================================-->

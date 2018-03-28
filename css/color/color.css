@@ -394,9 +394,10 @@ body{background:#f7fbfc;}
 --------------------------------------------------------------------------------------------------------------------------------
 */	
 
-.callout-section{background:url(../../images/callout-bg.jpg)no-repeat;}
+/*.callout-section{background:url(../../images/callout-bg.jpg)no-repeat;}*/
+.callout-section{background: black}
 .callout-wrapper{}
-.callout-1{border:5px solid rgba(255,255,255,0.1);}
+.callout-1{border:3px dashed #fecc17;}
 .callout-section a:hover{color:#fff;}
 
 /*

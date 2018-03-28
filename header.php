@@ -73,10 +73,7 @@
 					<nav class="wsmenu slideLeft clearfix ">
 						<div class="logo pull-left"><a href="/" title="Responsive Slide Menus"><img src="images/logo.png" alt="" /></a>
 
-							<a href="#">
-								<img src="images/Entidad-sisocsapp.jpg" width="100" alt="">
-							</a>
-		
+									
 						</div>
 						<ul class="mobile-sub wsmenu-list pull-right">
 							<li><a href="/" class="">Inicio</a>
